@@ -18,7 +18,7 @@ class MapsController < ApplicationController
 		# :hierachical_type
 		# :zoom
 		# :zoom_3d
-		# :nav_label
+		# :nav_label  
 	        	
 		# allow user to double click to zoom
 		@map.double_click_zoom = true
@@ -30,8 +30,8 @@ class MapsController < ApplicationController
 		@map.scroll_wheel_zoom = false
 		
 		#set some markers
-		@locations = Location.all
-    @locations.each do |loc|
+		
+    Location.find_each do |loc|
 	    @map.markers << GoogleMap::Marker.new(
 	      :map => @map,
 	      :icon => GoogleMap::SmallIcon.new(@map, 'blue'),
