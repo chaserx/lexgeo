@@ -1,0 +1,6 @@
+# Lexgeo
+
+A sandbox for google maps, geocoding, etc. in Rails 2.3 using [bhedana's google_maps plugin](http://github.com/bhedana/google_maps)
+
+Chase Southard
+7.9.2010

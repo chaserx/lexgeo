@@ -1,0 +1,41 @@
+one:
+  name: Woodland Park
+  lat: 38.0350792
+  lon: -84.4904251
+  desc: Woodland Park
+  address: MyString
+  zip: 40502
+
+two:
+  name: Shilito Park
+  lat: 37.985442
+  lon: -84.536635
+  desc: Shilito Park
+  address: MyString
+  zip: MyString
+
+three:
+  name: Southland Park
+  lat: 38.017612
+  lon: -84.540239
+  desc: Southland Park
+  address: MyString
+  zip: MyString
+
+four:
+  name: Jacobson Park
+  lat: 37.987383
+  lon: -84.423175
+  desc: Jacobson Park
+  address: MyString
+  zip: MyString
+
+five:
+  name: Vetrans Park
+  lat: 37.954810
+  lon: -84.502555
+  desc: Vetrans Park
+  address: MyString
+  zip: MyString
+
+  
