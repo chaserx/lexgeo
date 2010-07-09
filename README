@@ -2,5 +2,13 @@
 
 A sandbox for google maps, geocoding, etc. in Rails 2.3 using [bhedana's google_maps plugin](http://github.com/bhedana/google_maps)
 
+There are five fixtures available for seeding the db.
+
+    rake db:create
+
+    rake db:migrate
+    
+    rake db:seed
+
 Chase Southard
 7.9.2010
